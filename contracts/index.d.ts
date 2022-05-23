@@ -1,14 +1,14 @@
 
-declare enum Network {
+export enum Network {
   Rinkeby = 'Rinkeby',
   WorkQuestDev = 'WorkQuestDev',
 }
 
-declare enum WorkQuestNetworkContract {
+export enum WorkQuestNetworkContract {
   QuestFactory = 'QuestFactory',
 }
 
-declare enum RinkebyContract {
+export enum RinkebyContract {
 
 }
 
@@ -26,9 +26,4 @@ declare type ContractsStoreType = {
 
 declare module "@workquest/contract-data-pools" {
   export const Store: ContractsStoreType;
-
-  export const Network: Network;
-
-  export const RinkebyContract: RinkebyContract;
-  export const WorkQuestNetworkContract: WorkQuestNetworkContract;
 }
