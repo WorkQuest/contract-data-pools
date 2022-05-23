@@ -1,10 +1,13 @@
 const fs = require('fs');
+const path = require('path');
+
+const abiPath = path.join(__dirname, '/abi/QuestFactory.json');
 
 module.exports = {
   deploymentHeight: 200,
   address: '0x0000',
   getAbi() {
-    const abiFile = fs.readFileSync('./abi/QuestFactory.json').toString();
+    const abiFile = fs.readFileSync(abiPath).toString();
 
     return JSON.parse(abiFile);
   }
