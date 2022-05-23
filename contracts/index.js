@@ -1,6 +1,6 @@
 const questFactory = require('./work-quest-network/quest-factory/index');
 
-export default {
+module.exports = {
   ['WorkQuestDev']: {
     ['QuestFactory']: questFactory,
   }
