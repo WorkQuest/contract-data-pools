@@ -1,13 +1,19 @@
 
+export enum Networks {
+  Eth = "EthNetwork",
+  Bnb = "BnbNetwork",
+  WorkQuest = "WorkQuestNetwork",
+}
+
 export enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
 }
 
-export enum EthContracts {
+export enum EthNetworkContracts {
 
 }
 
-export enum BnbContracts {
+export enum BnbNetworkContracts {
 
 }
 
@@ -18,15 +24,15 @@ declare interface ContractData {
 }
 
 declare type ContractsStoreWorkQuestNetwork = {
-  "WorkQuestNetwork": { [key in WorkQuestNetworkContracts]: ContractData }
+  [Networks.WorkQuest]: { [key in WorkQuestNetworkContracts]: ContractData }
 }
 
 declare type ContractsStoreEthNetwork = {
-  "EthNetwork": { [key in EthContracts]: ContractData }
+  [Networks.Eth]: { [key in EthNetworkContracts]: ContractData }
 }
 
 declare type ContractsStoreBnbNetwork = {
-  "BnbNetwork": { [key in BnbContracts]: ContractData }
+  [Networks.Bnb]: { [key in BnbNetworkContracts]: ContractData }
 }
 
 declare module "@workquest/contract-data-pools" {

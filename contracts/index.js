@@ -1,20 +1,27 @@
 const questFactory = require('./work-quest-network/quest-factory/index');
 
+const Networks = {
+  Eth: "EthNetwork",
+  Bnb: "BnbNetwork",
+  WorkQuest: "WorkQuestNetwork",
+}
+
 const WorkQuestNetworkContracts = {
   QuestFactory: 'QuestFactory',
 }
 
-const EthContracts = {
+const EthNetworkContracts = {
 
 }
 
-const BnbContracts = {
+const BnbNetworkContracts = {
 
 }
 
 module.exports = {
-  EthContracts,
-  BnbContracts,
+  Networks,
+  EthNetworkContracts,
+  BnbNetworkContracts,
   WorkQuestNetworkContracts,
   Store: {
     ['WorkQuestNetwork']: {
