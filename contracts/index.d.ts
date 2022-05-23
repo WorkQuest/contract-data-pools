@@ -25,5 +25,5 @@ declare type ContractsStoreType = {
 }
 
 declare module "@workquest/contract-data-pools" {
-  export const store: ContractsStoreType;
+  export const Store: ContractsStoreType;
 }
