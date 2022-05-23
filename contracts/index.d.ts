@@ -8,6 +8,10 @@ declare enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
 }
 
+declare enum RinkebyContracts {
+
+}
+
 declare interface ContractData {
   address: string;
   deploymentHeight: number;
@@ -17,7 +21,7 @@ declare interface ContractData {
 export declare namespace ContractsStore {
     export const contracts: {
       [key in Network]: {
-        [key in WorkQuestNetworkContracts]: ContractData;
+        [key in WorkQuestNetworkContracts | RinkebyContracts]: ContractData;
     }
   }
 }
