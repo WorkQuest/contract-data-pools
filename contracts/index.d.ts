@@ -1,17 +1,23 @@
 
 declare enum Network {
-  WorkNet = 'WorkNet',
   Rinkeby = 'Rinkeby',
+  WorkQuestDev = 'WorkQuestDev',
 }
 
-declare interface Contract {
+declare enum WorkQuestNetworkContracts {
+  QuestFactory = 'QuestFactory',
+}
+
+declare interface ContractData {
   address: string;
   deploymentHeight: number;
   getAbi(): object;
 }
 
 declare type ContractNetworks = {
-  [key in Network]: object;
+  [key in Network]: {
+    [key in WorkQuestNetworkContracts]: ContractData;
+  }
 };
 
 export declare namespace Contracts {

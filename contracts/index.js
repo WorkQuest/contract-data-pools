@@ -1,4 +1,7 @@
+const questFactory = require('./work-quest-network/quest-factory/index');
 
 export default {
-    ['work-quest-network']: { }
+  ['WorkQuestDev']: {
+    ['QuestFactory']: questFactory,
+  }
 }
