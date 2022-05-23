@@ -1,18 +1,18 @@
 
-export declare enum Network {
+export enum Network {
   Rinkeby = 'Rinkeby',
   WorkQuestDev = 'WorkQuestDev',
 }
 
-export declare enum WorkQuestNetworkContracts {
+export enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
 }
 
-export declare enum RinkebyContracts {
+export enum RinkebyContracts {
 
 }
 
-export declare interface ContractData {
+declare interface ContractData {
   address: string;
   deploymentHeight: number;
   getAbi(): object;
