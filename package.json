@@ -1,5 +1,5 @@
 {
-  "name": "contract-data-pools",
+  "name": "@workquest/contract-data-pools",
   "version": "1.0.0",
   "description": "Information about all contracts on the platform WorkQuest",
   "main": "./contracts/index.js",
