@@ -12,6 +12,7 @@
     "url": "https://github.com/WorkQuest/contract-data-pools/issues"
   },
   "homepage": "https://github.com/WorkQuest/contract-data-pools#readme",
+  "types": "./contracts/index.d.ts",
   "exports": {
    ".": "./contracts/index.js"
   }
