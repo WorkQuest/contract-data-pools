@@ -8,7 +8,7 @@ declare enum WorkQuestNetworkContract {
   QuestFactory = 'QuestFactory',
 }
 
-export enum RinkebyContract {
+declare enum RinkebyContract {
 
 }
 
