@@ -14,12 +14,10 @@ declare interface ContractData {
   getAbi(): object;
 }
 
-declare type ContractNetworks = {
-  [key in Network]: {
-    [key in WorkQuestNetworkContracts]: ContractData;
+export declare namespace ContractsStore {
+    export const contracts: {
+      [key in Network]: {
+        [key in WorkQuestNetworkContracts]: ContractData;
+    }
   }
-};
-
-export declare namespace Contracts {
-   export const contracts: ContractNetworks;
 }
