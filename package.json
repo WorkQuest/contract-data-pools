@@ -2,7 +2,6 @@
   "name": "@workquest/contract-data-pools",
   "version": "1.0.0",
   "description": "Information about all contracts on the platform WorkQuest",
-  "main": "./contracts/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WorkQuest/contract-data-pools.git"
@@ -12,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/WorkQuest/contract-data-pools/issues"
   },
-  "homepage": "https://github.com/WorkQuest/contract-data-pools#readme"
+  "homepage": "https://github.com/WorkQuest/contract-data-pools#readme",
+  "exports": {
+   ".": "./contracts/index.js"
+  }
 }
