@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-export default {
+module.exports = {
   deploymentHeight: 200,
   address: '0x0000',
   getAbi() {
