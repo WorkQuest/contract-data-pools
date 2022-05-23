@@ -1,27 +1,29 @@
 
-declare enum Network {
+export declare enum Network {
   Rinkeby = 'Rinkeby',
   WorkQuestDev = 'WorkQuestDev',
 }
 
-declare enum WorkQuestNetworkContracts {
+export declare enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
 }
 
-declare enum RinkebyContracts {
+export declare enum RinkebyContracts {
 
 }
 
-declare interface ContractData {
+export declare interface ContractData {
   address: string;
   deploymentHeight: number;
   getAbi(): object;
 }
 
-declare type ContractsStore = {
+export declare type ContractsStore = {
   [key in Network]: {
     [key in WorkQuestNetworkContracts | RinkebyContracts]: ContractData;
   }
 }
 
-export default ContractsStore;
+declare module "@workquest/contract-data-pools" {
+  export const store: ContractsStore;
+}
