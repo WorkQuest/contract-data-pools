@@ -4,7 +4,7 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WorkQuest.json');
 
 module.exports = {
-  deploymentHeight: 200,
+  deploymentHeight: 13433,
   address: '0x0000',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
