@@ -1,3 +1,4 @@
+// WorkQuest Network imports
 const questFactory = require('./work-quest-network/WorkQuestFactory.sol/index');
 const workQuest = require('./work-quest-network/WorkQuest.sol/index');
 const borrowing = require('./work-quest-network/WQBorrowing.sol/index');
@@ -15,6 +16,12 @@ const savingProduct = require('./work-quest-network/WQSavingProduct.sol/index');
 const stakingWQT = require('./work-quest-network/WQStakingWQT.sol/index');
 const stakingWUSD = require('./work-quest-network/WQStakingWUSD.sol/index');
 const surplusAuction = require('./work-quest-network/WQSurplusAuction.sol/index');
+
+// Eth Network imports
+const wqtWeth = require('./eth-network/WqtWeth.sol/index');
+
+// Bnb Network imports
+const wqtWbnb = require('./bnb-network/WqtWbnb.sol/index');
 
 const Networks = {
   Eth: "EthNetwork",
@@ -43,11 +50,11 @@ const WorkQuestNetworkContracts = {
 };
 
 const EthNetworkContracts = {
-
+  WqtWeth: 'WqtWeth',
 }
 
 const BnbNetworkContracts = {
-
+  WqtWbnb: 'WqtWbnb',
 }
 
 module.exports = {
@@ -74,6 +81,12 @@ module.exports = {
       ['StakingWQT']: stakingWQT,
       ['StakingWUSD']: stakingWUSD,
       ['SurplusAuction']: surplusAuction,
+    },
+    ['EthNetwork']: {
+      ['WqtWeth']: wqtWeth,
+    },
+    ['BnbNetwork']: {
+      ['WqtWbnb']: wqtWbnb,
     }
   }
 }
