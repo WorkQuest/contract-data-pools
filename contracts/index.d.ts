@@ -7,6 +7,22 @@ export enum Networks {
 
 export enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
+  WorkQuest = 'WorkQuest',
+  Borrowing = 'Borrowing',
+  Bridge = 'Bridge',
+  CollateralAuction = 'CollateralAuction',
+  DAOVoting = 'DAOVoting',
+  DebtAuction = 'DebtAuction',
+  Lending = 'Lending',
+  PensionFund = 'PensionFund',
+  PriceOracle = 'PriceOracle',
+  Promotion = 'Promotion',
+  Referral = 'Referral',
+  Router = 'Router',
+  SavingProduct = 'SavingProduct',
+  StakingWQT = 'StakingWQT',
+  StakingWUSD = 'StakingWUSD',
+  SurplusAuction = 'SurplusAuction'
 }
 
 export enum EthNetworkContracts {
