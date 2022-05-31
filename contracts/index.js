@@ -19,9 +19,11 @@ const surplusAuction = require('./work-quest-network/WQSurplusAuction.sol/index'
 
 // Eth Network imports
 const wqtWeth = require('./eth-network/WqtWeth.sol/index');
+const bridgeUSDTOnBnb = require('./bnb-network/WQBridgeStable.sol/index');
 
 // Bnb Network imports
 const wqtWbnb = require('./bnb-network/WqtWbnb.sol/index');
+const bridgeUSDTOnEth = require('./eth-network/WQBridgeStable.sol/index');
 
 const Networks = {
   Eth: "EthNetwork",
@@ -84,9 +86,11 @@ module.exports = {
     },
     ['EthNetwork']: {
       ['WqtWeth']: wqtWeth,
+      ['BridgeUSDT']: bridgeUSDTOnEth,
     },
     ['BnbNetwork']: {
       ['WqtWbnb']: wqtWbnb,
-    }
+      ['BridgeUSDT']: bridgeUSDTOnBnb,
+    },
   }
 }

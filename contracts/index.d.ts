@@ -27,10 +27,12 @@ export enum WorkQuestNetworkContracts {
 
 export enum EthNetworkContracts {
   WqtWeth = 'WqtWeth',
+  BridgeUSDT = 'BridgeUSDT',
 }
 
 export enum BnbNetworkContracts {
   WqtWbnb = 'WqtWbnb',
+  BridgeUSDT = 'BridgeUSDT',
 }
 
 declare interface ContractData {
