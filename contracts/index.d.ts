@@ -3,6 +3,7 @@ export enum Networks {
   Eth = "EthNetwork",
   Bnb = "BnbNetwork",
   WorkQuest = "WorkQuestNetwork",
+  PolygonScan = "PolygonScan",
 }
 
 export enum WorkQuestNetworkContracts {
@@ -32,6 +33,10 @@ export enum EthNetworkContracts {
 
 export enum BnbNetworkContracts {
   WqtWbnb = 'WqtWbnb',
+  BridgeUSDT = 'BridgeUSDT',
+}
+
+export enum PolygonScanContracts {
   BridgeUSDT = 'BridgeUSDT',
 }
 

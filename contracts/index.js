@@ -1,4 +1,4 @@
-// WorkQuest Network imports
+/** WorkQuest Network imports */
 const questFactory = require('./work-quest-network/WorkQuestFactory.sol/index');
 const workQuest = require('./work-quest-network/WorkQuest.sol/index');
 const borrowing = require('./work-quest-network/WQBorrowing.sol/index');
@@ -17,17 +17,21 @@ const stakingWQT = require('./work-quest-network/WQStakingWQT.sol/index');
 const stakingWUSD = require('./work-quest-network/WQStakingWUSD.sol/index');
 const surplusAuction = require('./work-quest-network/WQSurplusAuction.sol/index');
 
-// Eth Network imports
+/** Eth Network imports */
 const wqtWeth = require('./eth-network/WqtWeth.sol/index');
 const bridgeUSDTOnBnb = require('./bnb-network/WQBridgeStable.sol/index');
 
-// Bnb Network imports
+/** Bnb Network imports */
 const wqtWbnb = require('./bnb-network/WqtWbnb.sol/index');
 const bridgeUSDTOnEth = require('./eth-network/WQBridgeStable.sol/index');
+
+/** PolygonScan imports */
+const bridgeUSDTOnPolygonScan = require('./polygon-scan-network/WQBridgeStable.sol/index');
 
 const Networks = {
   Eth: "EthNetwork",
   Bnb: "BnbNetwork",
+  PolygonScan: "PolygonScan",
   WorkQuest: "WorkQuestNetwork",
 }
 
@@ -59,10 +63,15 @@ const BnbNetworkContracts = {
   WqtWbnb: 'WqtWbnb',
 }
 
+const PolygonScanContracts = {
+  BridgeUSDT: 'BridgeUSDT',
+}
+
 module.exports = {
   Networks,
   EthNetworkContracts,
   BnbNetworkContracts,
+  PolygonScanContracts,
   WorkQuestNetworkContracts,
   Store: {
     ['WorkQuestNetwork']: {
@@ -92,5 +101,8 @@ module.exports = {
       ['WqtWbnb']: wqtWbnb,
       ['BridgeUSDT']: bridgeUSDTOnBnb,
     },
+    ['PolygonScan']: {
+      ['WqtWbnb']: bridgeUSDTOnPolygonScan,
+    }
   }
 }
