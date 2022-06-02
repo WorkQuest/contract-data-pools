@@ -104,7 +104,7 @@ module.exports = {
       ['BridgeUSDT']: bridgeUSDTOnBnb,
     },
     ['PolygonScan']: {
-      ['WqtWbnb']: bridgeUSDTOnPolygonScan,
+      ['BridgeUSDT']: bridgeUSDTOnPolygonScan,
     }
   }
 }
