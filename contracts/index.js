@@ -57,10 +57,12 @@ const WorkQuestNetworkContracts = {
 
 const EthNetworkContracts = {
   WqtWeth: 'WqtWeth',
+  BridgeUSDT: 'BridgeUSDT',
 }
 
 const BnbNetworkContracts = {
   WqtWbnb: 'WqtWbnb',
+  BridgeUSDT: 'BridgeUSDT',
 }
 
 const PolygonScanContracts = {
