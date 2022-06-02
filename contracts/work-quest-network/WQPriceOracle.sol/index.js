@@ -9,6 +9,6 @@ module.exports = {
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
-    return JSON.parse(abiFile.abi);
+    return JSON.parse(abiFile).abi;
   }
 }
