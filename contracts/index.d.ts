@@ -3,18 +3,43 @@ export enum Networks {
   Eth = "EthNetwork",
   Bnb = "BnbNetwork",
   WorkQuest = "WorkQuestNetwork",
+  PolygonScan = "PolygonScan",
 }
 
 export enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
+  WorkQuest = 'WorkQuest',
+  Borrowing = 'Borrowing',
+  WqtBridge ='WqtBridge',
+  CollateralAuction = 'CollateralAuction',
+  DAOVoting = 'DAOVoting',
+  DebtAuction = 'DebtAuction',
+  Lending = 'Lending',
+  PensionFund = 'PensionFund',
+  PriceOracle = 'PriceOracle',
+  Promotion = 'Promotion',
+  Referral = 'Referral',
+  Router = 'Router',
+  SavingProduct = 'SavingProduct',
+  StakingWQT = 'StakingWQT',
+  StakingWUSD = 'StakingWUSD',
+  SurplusAuction = 'SurplusAuction'
 }
 
 export enum EthNetworkContracts {
-
+  WqtWeth = 'WqtWeth',
+  WqtBridge ='WqtBridge',
+  BridgeUSDT = 'BridgeUSDT',
 }
 
 export enum BnbNetworkContracts {
+  WqtWbnb = 'WqtWbnb',
+  WqtBridge ='WqtBridge',
+  BridgeUSDT = 'BridgeUSDT',
+}
 
+export enum PolygonScanContracts {
+  BridgeUSDT = 'BridgeUSDT',
 }
 
 declare interface ContractData {
