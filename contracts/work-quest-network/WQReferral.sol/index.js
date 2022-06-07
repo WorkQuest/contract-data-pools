@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQReferral.json');
 
 module.exports = {
-  deploymentHeight: 13345,
-  address: '0x3407513Da10AD7051895aA53203B44b448d815db',
+  deploymentHeight: 30275,
+  address: '0x5a1e8B4D64ad9C34B4a70Db3C4Dd53C24Aa41fbE',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 

@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQPensionFund.json');
 
 module.exports = {
-  deploymentHeight: 251324,
-  address: '0xA6CEEE03708134D4a4e5E0Dd5cf4EaCA91280b22',
+  deploymentHeight: 30262,
+  address: '0x3eCB2AFED8417Dd6D8498284379c9535Ca0F21ac',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 

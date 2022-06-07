@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQBorrowing.json');
 
 module.exports = {
-  deploymentHeight: 268424,
-  address: '0x925b9480bc24dEBcBe073efaA7dFa79bA472f39B',
+  deploymentHeight: 30864,
+  address: '0xAD10a2538a3FCC3748eD8eC53e586dDf3EA56344',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
