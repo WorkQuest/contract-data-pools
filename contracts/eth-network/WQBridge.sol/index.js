@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQBridge.json');
 
 module.exports = {
-  deploymentHeight: 10326922,
-  address: '0x03883AE9F07D71a1b67b89fD4af83B9A81e3f8C4',
+  deploymentHeight: 13316187,
+  address: '0xd65815dA812C6eAEC0186215E43A12D76F5deCBc',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
