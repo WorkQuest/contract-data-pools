@@ -23,7 +23,11 @@ export enum WorkQuestNetworkContracts {
   SavingProduct = 'SavingProduct',
   StakingWQT = 'StakingWQT',
   StakingWUSD = 'StakingWUSD',
-  SurplusAuction = 'SurplusAuction'
+  SurplusAuction = 'SurplusAuction',
+  BNB = 'BNB',
+  ETH = 'ETH',
+  USDT = 'USDT',
+  WUSD = 'WUSD'
 }
 
 export enum EthNetworkContracts {
