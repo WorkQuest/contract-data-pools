@@ -98,7 +98,6 @@ module.exports = {
       ['QuestFactory']: questFactory,
       ['Borrowing']: borrowing,
       ['WqtBridge']: wqtBridgeOnWorkNet,
-      ['CollateralAuction']: collateralAuction,
       ['DAOVoting']: daoVoting,
       ['DebtAuction']: debtAuction,
       ['Lending']: lending,
