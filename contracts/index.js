@@ -50,7 +50,6 @@ const WorkQuestNetworkContracts = {
   WorkQuest: 'WorkQuest',
   Borrowing: 'Borrowing',
   WqtBridge: 'WqtBridge',
-  CollateralAuction: 'CollateralAuction',
   DAOVoting: 'DAOVoting',
   DebtAuction: 'DebtAuction',
   Lending: 'Lending',
