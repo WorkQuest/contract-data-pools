@@ -3,7 +3,6 @@ const questFactory = require('./work-quest-network/WorkQuestFactory.sol/index');
 const workQuest = require('./work-quest-network/WorkQuest.sol/index');
 const borrowing = require('./work-quest-network/WQBorrowing.sol/index');
 const wqtBridgeOnWorkNet = require('./work-quest-network/WQBridge.sol/index');
-const collateralAuction = require('./work-quest-network/WQCollateralAuction.sol/index');
 const daoVoting = require('./work-quest-network/WQDAOVoting.sol/index');
 const debtAuction = require('./work-quest-network/WQDebtAuction.sol/index');
 const lending = require('./work-quest-network/WQLending.sol/index');
@@ -49,7 +48,6 @@ const WorkQuestNetworkContracts = {
   WorkQuest: 'WorkQuest',
   Borrowing: 'Borrowing',
   WqtBridge: 'WqtBridge',
-  CollateralAuction: 'CollateralAuction',
   DAOVoting: 'DAOVoting',
   DebtAuction: 'DebtAuction',
   Lending: 'Lending',
@@ -99,7 +97,6 @@ module.exports = {
       ['QuestFactory']: questFactory,
       ['Borrowing']: borrowing,
       ['WqtBridge']: wqtBridgeOnWorkNet,
-      ['CollateralAuction']: collateralAuction,
       ['DAOVoting']: daoVoting,
       ['DebtAuction']: debtAuction,
       ['Lending']: lending,
