@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQPriceOracle.json');
 
 module.exports = {
-  deploymentHeight: 29445,
-  address: '0x060782d7A45B95C5a07696542CBd81Ad70D518F0',
+  deploymentHeight: 0,
+  address: '0x0000000000000000000000000000000000000000',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 

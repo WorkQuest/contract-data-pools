@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQStakingWUSD.json');
 
 module.exports = {
-  deploymentHeight: 30493,
-  address: '0x89F4ef98E10dC9b907Ba0e6cd3D37376D304F5CD',
+  deploymentHeight: 0,
+  address: '0x0000000000000000000000000000000000000000',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 

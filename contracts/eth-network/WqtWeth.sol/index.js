@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WqtWeth.json');
 
 module.exports = {
-    deploymentHeight: 13283220,
-    address: '0xf1fe852fca1b5a869ef1fe06a2799e1f38b70b84',
+    deploymentHeight: 12010978,
+    address: '0x06677Dc4fE12d3ba3C7CCfD0dF8Cd45e4D4095bF',
     getAbi() {
         const abiFile = fs.readFileSync(abiPath).toString();
 
