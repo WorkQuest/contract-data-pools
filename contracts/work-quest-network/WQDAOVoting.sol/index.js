@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQDAOVoting.json');
 
 module.exports = {
-  deploymentHeight: 0,
-  address: '0x0000000000000000000000000000000000000000',
+  deploymentHeight: 78447,
+  address: '0xA903836A89FAf0c7A64DCabf2bCd7b05480b28e9',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
