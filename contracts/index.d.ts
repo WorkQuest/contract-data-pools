@@ -14,6 +14,7 @@ export enum WorkQuestNetworkContracts {
   BNBAuction = 'BNBAuction',
   ETHAuction = 'ETHAuction',
   USDTAuction = 'USDTAuction',
+  USDCAuction = 'USDCAuction',
   DAOVoting = 'DAOVoting',
   DebtAuction = 'DebtAuction',
   Lending = 'Lending',
@@ -29,6 +30,7 @@ export enum WorkQuestNetworkContracts {
   BNB = 'BNB',
   ETH = 'ETH',
   USDT = 'USDT',
+  USDC = 'USDC',
   WUSD = 'WUSD',
 }
 
