@@ -18,10 +18,12 @@ const surplusAuction = require('./work-quest-network/WQSurplusAuction.sol/index'
 const BNB = require('./work-quest-network/BNB.sol/index');
 const ETH = require('./work-quest-network/ETH.sol/index');
 const USDT = require('./work-quest-network/USDT.sol/index');
+const USDC = require('./work-quest-network/USDC.sol/index');
 const WUSD = require('./work-quest-network/WUSD.sol/index');
 const BNBAuction = require('./work-quest-network/BNBAuction.sol/index');
 const ETHAuction = require('./work-quest-network/ETHAuction.sol/index');
 const USDTAuction = require('./work-quest-network/USDTAuction.sol/index');
+const USDCAuction = require('./work-quest-network/USDCAuction.sol/index');
 
 /** Eth Network imports */
 const wqtWeth = require('./eth-network/WqtWeth.sol/index');
@@ -63,10 +65,12 @@ const WorkQuestNetworkContracts = {
   BNB: 'BNB',
   ETH: 'ETH',
   USDT: 'USDT',
+  USDC: 'USDC',
   WUSD: 'WUSD',
   BNBAuction: 'BNBAuction',
   ETHAuction: 'ETHAuction',
-  USDTAuction: 'USDTAuction'
+  USDTAuction: 'USDTAuction',
+  USDCAuction: 'USDCAuction'
 };
 
 const EthNetworkContracts = {
@@ -112,10 +116,12 @@ module.exports = {
       ['BNB']: BNB,
       ['ETH']: ETH,
       ['USDT']: USDT,
+      ['USDC']: USDC,
       ['WUSD']: WUSD,
       ['BNBAuction']: BNBAuction,
       ['ETHAuction']: ETHAuction,
-      ['USDTAuction']: USDTAuction
+      ['USDTAuction']: USDTAuction,
+      ['USDCAuction']: USDCAuction
     },
     ['EthNetwork']: {
       ['WqtWeth']: wqtWeth,

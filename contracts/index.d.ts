@@ -10,10 +10,11 @@ export enum WorkQuestNetworkContracts {
   QuestFactory = 'QuestFactory',
   WorkQuest = 'WorkQuest',
   Borrowing = 'Borrowing',
-  WqtBridge ='WqtBridge',
+  WqtBridge = 'WqtBridge',
   BNBAuction = 'BNBAuction',
   ETHAuction = 'ETHAuction',
   USDTAuction = 'USDTAuction',
+  USDCAuction = 'USDCAuction',
   DAOVoting = 'DAOVoting',
   DebtAuction = 'DebtAuction',
   Lending = 'Lending',
@@ -29,18 +30,19 @@ export enum WorkQuestNetworkContracts {
   BNB = 'BNB',
   ETH = 'ETH',
   USDT = 'USDT',
+  USDC = 'USDC',
   WUSD = 'WUSD'
 }
 
 export enum EthNetworkContracts {
   WqtWeth = 'WqtWeth',
-  WqtBridge ='WqtBridge',
+  WqtBridge = 'WqtBridge',
   BridgeUSDT = 'BridgeUSDT',
 }
 
 export enum BnbNetworkContracts {
   WqtWbnb = 'WqtWbnb',
-  WqtBridge ='WqtBridge',
+  WqtBridge = 'WqtBridge',
   BridgeUSDT = 'BridgeUSDT',
 }
 
