@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQCollateralAuction.json');
 
 module.exports = {
-  deploymentHeight: 1626059,
-  address: '0xecFc030E7F3fBDDCfE19DFEBbc52fc9158270370',
+  deploymentHeight: 1737515,
+  address: '0x3d7b1905692B4dB5B23A6D92e9b97f0F033eb02b',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 

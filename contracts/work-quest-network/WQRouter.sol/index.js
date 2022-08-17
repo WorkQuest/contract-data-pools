@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQRouter.json');
 
 module.exports = {
-  deploymentHeight: 1626326,
-  address: '0xaDF320D685Ea3c8CC60b7061a5BF4eb45a7581cd',
+  deploymentHeight: 1737302,
+  address: '0x0BaFa2B642fd79d99d986d46d5e4e7C30149ae50',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
