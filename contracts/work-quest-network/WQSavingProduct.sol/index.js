@@ -4,8 +4,8 @@ const path = require('path');
 const abiPath = path.join(__dirname, '/abi/WQSavingProduct.json');
 
 module.exports = {
-  deploymentHeight: 30660,
-  address: '0xaFbadED10D19032f4Df676002DB0956F2FBE6437',
+  deploymentHeight: 1430552,
+  address: '0x07d27E0662201Dc5D91eFDCa943a68Bc5B5377Ec',
   getAbi() {
     const abiFile = fs.readFileSync(abiPath).toString();
 
