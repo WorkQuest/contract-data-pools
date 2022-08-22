@@ -13,7 +13,6 @@ const router = require('./work-quest-network/WQRouter.sol/index');
 const savingProduct = require('./work-quest-network/WQSavingProduct.sol/index');
 const stakingWQT = require('./work-quest-network/WQStakingWQT.sol/index');
 const stakingWUSD = require('./work-quest-network/WQStakingWUSD.sol/index');
-const surplusAuction = require('./work-quest-network/WQSurplusAuction.sol/index');
 const BNB = require('./work-quest-network/BNB.sol/index');
 const ETH = require('./work-quest-network/ETH.sol/index');
 const USDT = require('./work-quest-network/USDT.sol/index');
